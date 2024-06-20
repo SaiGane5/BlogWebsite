@@ -4,7 +4,7 @@ import axios from "axios";
 
 const app = express();
 const port = process.env.PORT || 3000;
-const API_URL = 'https://44.226.145.213";
+const API_URL = 'https://44.226.145.213';
 
 app.use(express.static("public"));
 
